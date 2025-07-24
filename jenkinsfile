@@ -14,7 +14,7 @@ pipeline{
          echo "ur inside sh section......"
          ls -altr
         chmod 777 installation.sh
-        dos2unix installation.sh
+        
         ls -altr
         git clone https://github.com/Evidentia1/ImageProcessing.git
         ls -altr
