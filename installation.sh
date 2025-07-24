@@ -20,7 +20,8 @@ chmod 777 /tmp/ImageProcessing
 #installations
 sudo apt install python3 pip -y
 cd ImageProcessing/
-pip install -r requirements.txt —-break-system-packages
+pip install -r requirements.txt --break-system-packages
+
 cd frontend/
 python3 -m streamlit run login.py
 #vamsi end
