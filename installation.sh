@@ -15,6 +15,8 @@ sudo apt install git -y
 sleep 3s
 cd /tmp
 git clone -b master https://github.com/Evidentia1/ImageProcessing.git
+chmod 777 /tmp/ImageProcessing
+
 
 ls -altr
 pwd
