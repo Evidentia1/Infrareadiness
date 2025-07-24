@@ -18,7 +18,7 @@ git clone -b master https://github.com/Evidentia1/ImageProcessing.git
 chmod 777 /tmp/ImageProcessing
 
 #installations
-sudo apt install python3 pip
+sudo apt install python3 pip -y
 cd ImageProcessing/
 pip install -r requirements.txt —break-system-packages
 cd frontend/
