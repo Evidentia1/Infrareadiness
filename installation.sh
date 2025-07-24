@@ -17,6 +17,13 @@ cd /tmp
 git clone -b master https://github.com/Evidentia1/ImageProcessing.git
 chmod 777 /tmp/ImageProcessing
 
+#installations
+sudo apt install python3 pip
+cd ImageProcessing/
+pip install -r requirements.txt —break-system-packages
+cd frontend/
+python3 -m streamlit run login.py
+#vamsi end
 
 ls -altr
 pwd
