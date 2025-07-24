@@ -18,9 +18,7 @@ pipeline{
         ls -altr
         git clone https://github.com/Evidentia1/ImageProcessing.git
         ls -altr
-        gcloud compute instances delete sample-evidential-app --zone europe-west2-a --quiet
-        ls -altr"
-        
+               
 gcloud compute instances create sample-evidential-app --zone=europe-west2 --machine-type=n1-standard-16 --image-project=debian-cloud --image-family=debian-12 --boot-disk-size=150GB --service-account=961601925578-compute@developer.gserviceaccount.com --tags=http-server,https-server --scopes=https://www.googleapis.com/auth/drive,https://www.googleapis.com/auth/cloud-platform --metadata-from-file=startup-script=installation.sh
         ls -altr
         pwd  
